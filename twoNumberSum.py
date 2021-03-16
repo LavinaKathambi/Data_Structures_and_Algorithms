@@ -23,7 +23,7 @@ def twoNumberSum(array, targetSum):
 				return newList
 	return []
 
-# Solution 1 Optimized Space 
+# Solution 2 Optimized Space 
 # O(n^2) time and O(1) Space
 def twoNumberSum(array, targetSum):
     # use a for loop to sum i to every j without appending to a new list
@@ -34,7 +34,7 @@ def twoNumberSum(array, targetSum):
 	return []
 	
 
-# Solution 1 Optimized time 
+# Solution 3 Optimized time 
 # O(n) time and O(n) Space
 def twoNumberSum(array, targetSum):
 	# define a hash_table = dictionary

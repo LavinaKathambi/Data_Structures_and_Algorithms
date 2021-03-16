@@ -34,6 +34,7 @@ def twoNumberSum(array, targetSum):
 	return []
 
 # Solution 3 Optimized Space 
+# O(n log n) time and O(1) space
 def twoNumberSum(array, targetSum):
 	array.sort()
 	# define 2 pointers

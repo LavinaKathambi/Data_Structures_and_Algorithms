@@ -3,8 +3,10 @@ Tournament Winner:
 There's a tournament, and teams go head to head, a function takes in 2 arrays as input
 1. list of lists of which teams go against each other 
 2. an array that has the results 
-the len of both arrays are equeal hence, indexes correspond to each other 
-the goal is to find the winning team 
+The len of both arrays are equeal hence, indexes correspond to each other 
+The goal is to find the winning team 
+Competitions  array represents = [homeTeam, awayTeam]
+If 1 in results array, homeTeam won, if 0, awayTeam won 
 '''
 
 # O(N) Time | O(K) Space
